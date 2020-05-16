@@ -1,0 +1,70 @@
+body {
+    /*background-color: rgb(0, 250, 154);*/
+    background-color: skyblue;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 255);
+    font-size: 1em;
+    color: white;
+}
+
+h1 {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-size: 2em;
+}
+
+h2 {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: rgb(0, 0, 255);
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.poznamka {
+    background-color: #ddd;
+    font-size: 0.9em;
+    padding: 0.5em;
+}
+
+nav.navbar-dark {
+    background-color: rgb(0, 0, 255) !important;
+}
+
+#tlacitka {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+#udalosti a {
+    font-weight: bold;
+    color: rgb(0, 0, 255);
+    font-size: 1.2em;
+}
+
+#udalosti .event-year {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#udalosti .event-evaluation {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#zpravodaj h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    /*text-align: center;*/
+    padding-bottom: 20px;
+}
