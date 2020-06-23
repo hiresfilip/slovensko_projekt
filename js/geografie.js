@@ -144,7 +144,8 @@ $(function() {
                 'trigger': 'click',
                 'placement': 'right',
                 'offset': '10%, -100',
-                'title': $(this).find('title').text()
+                /* Zde byla chyba - ve vašem SVG souboru máte kraje pojmenovány v atributu name, nikoliv ve značce title, jak to bylo v mém vzoru */
+                'title': $(this).attr('name')
             });
         }
     });
